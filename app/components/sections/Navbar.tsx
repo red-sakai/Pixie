@@ -50,7 +50,7 @@ export default function Navbar() {
             <ButtonLink href="#how-it-works" variant="secondary">
               Learn more
             </ButtonLink>
-            <ButtonLink href="#top">Start</ButtonLink>
+            <ButtonLink href="/login">Start</ButtonLink>
           </div>
         </div>
       </Container>
