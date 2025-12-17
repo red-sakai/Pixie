@@ -144,7 +144,10 @@ export default function InterviewGate() {
             </button>
             <button
               type="button"
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                setOpen(false);
+                router.push("/interview/preview");
+              }}
               className="inline-flex items-center justify-center rounded-full border border-foreground/10 bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-colors hover:bg-foreground/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/30"
             >
               I agree
